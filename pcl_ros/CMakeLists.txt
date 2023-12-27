@@ -4,9 +4,9 @@ project(pcl_ros)
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 14)
 endif()
-if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic -fPIC)
-endif()
+#if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+#  add_compile_options(-Wall -Wextra -Wpedantic -fPIC)
+#endif()
 
 ## Find system dependencies
 find_package(Eigen3 REQUIRED)
